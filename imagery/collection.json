@@ -1,0 +1,55 @@
+{
+    "id": "jon-stac-test-marine-imagery",
+    "stac_version": "1.0.0",
+    "description": "A made-up set of marine imagery data",
+    "links": [
+        {
+            "rel": "root",
+            "href": "./collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "self",
+            "href": "https://raw.githubusercontent.com/jonblower/jon-stac-test/main/imagery/collection.json",
+            "type": "application/json"
+        }
+    ],
+    "title": "Test Marine Imagery",
+    "keywords": [
+        "images",
+        "AUV",
+        "benthic"
+    ],
+    "providers": [
+        {
+            "name": "National Oceanography Centre",
+            "description": "The UK's National Oceanography Centre (NOC)",
+            "roles": [
+                "producer",
+                "processor"
+            ],
+            "url": "https://www.noc.ac.uk"
+        }
+    ],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -96,
+                    28,
+                    -93,
+                    31
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2017-08-28T10:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "license": "CC-BY-SA-4.0"
+}

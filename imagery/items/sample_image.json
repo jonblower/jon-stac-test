@@ -48,6 +48,12 @@
             "description": "Image of sea bed",
             "type": "image/jpeg",
             "href": "https://jncc.gov.uk/media/6178/ghf_25_stn141_0017.jpg"
+        },
+        "annotations" {
+            "title": "Annotations",
+            "description": "Annotations for this image",
+            "type": "text/plain",
+            "href": "../annotations/sample_image_annotations.txt"
         }
     }
 }

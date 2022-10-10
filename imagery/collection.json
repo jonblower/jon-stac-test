@@ -12,6 +12,11 @@
             "rel": "self",
             "href": "https://raw.githubusercontent.com/jonblower/jon-stac-test/main/imagery/collection.json",
             "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/sample_image.json",
+            "type": "application/json"
         }
     ],
     "title": "Test Marine Imagery",

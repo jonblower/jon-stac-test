@@ -1,0 +1,53 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "0234092384023",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [-7.79, 50.2],
+                [-7.77, 50.2],
+                [-7.77, 50.3],
+                [-7.79, 50.3],
+                [-7.79, 50.2]
+            ]
+        ]
+    },
+    "bbox": [ -7.79, 50.2, -7.77, 50.3 ],
+    "properties": {
+        "datetime": "2013-04-05T11:22:33Z",
+        "quality": 0.3
+    },
+    "links": [
+        {
+            "rel": "self",
+            "href": "https://raw.githubusercontent.com/jonblower/jon-stac-test/main/imagery/items/sample_image.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "root",
+            "href": "../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "collection",
+            "href": "https://raw.githubusercontent.com/jonblower/jon-stac-test/main/imagery/collection.json",
+            "type": "application/json"
+        }
+    ],
+    "collection": "jon-stac-test-marine-imagery",
+    "assets": {
+        "image": {
+            "title": "Yer actual image",
+            "description": "Image of sea bed",
+            "type": "image/jpeg",
+            "href": "https://jncc.gov.uk/media/6178/ghf_25_stn141_0017.jpg"
+        }
+    }
+}

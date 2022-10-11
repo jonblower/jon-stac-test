@@ -32,12 +32,12 @@
         },
         {
             "rel": "root",
-            "href": "../collection.json",
+            "href": "../../catalog.json",
             "type": "application/json"
         },
         {
             "rel": "collection",
-            "href": "https://raw.githubusercontent.com/jonblower/jon-stac-test/main/imagery/collection.json",
+            "href": "../collection.json",
             "type": "application/json"
         }
     ],

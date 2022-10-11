@@ -1,0 +1,25 @@
+{
+    "type": "Catalog",
+    "stac_version": "1.0.0",
+    "id": "jon-test-catalog",
+    "title": "Jon's sample catalog",
+    "description": "Entry point for all datasets on this server",
+    "links": [
+        {
+            "rel": "root",
+            "href": "./catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "child",
+            "href": "./imagery/collection.json",
+            "type": "application/json",
+            "title": "Imagery from Haig Fras MPA"
+        },
+        {
+            "rel": "self",
+            "href": "https://raw.githubusercontent.com/jonblower/jon-stac-test/main/catalog.json",
+            "type": "application/json"
+        }
+    ]
+}
